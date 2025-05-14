@@ -1,16 +1,50 @@
-# finance
+# Finance – Flutter Live Coding Exercise
 
-A new Flutter project.
+Este projeto é um exercício prático de **live coding com Flutter**, com foco em boas práticas de desenvolvimento mobile, incluindo:
 
-## Getting Started
+- **Clean Architecture**
+- **Gerenciamento de estado com Provider**
+- **Paginação simulada**
+- **Tratamento de erros controlado**
+- **Testes unitários com cobertura dos fluxos principais**
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Objetivo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Simular a construção de uma aplicação mobile simples de controle de transações financeiras. O foco está na organização do código, clareza arquitetural, boas práticas com Flutter/Dart e capacidade de raciocínio técnico ao vivo.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Funcionalidades
+
+- Exibição de uma lista de transações financeiras com status (Aprovada, Pendente, Recusada)
+- Filtro por status
+- Paginação simulada no carregamento da lista
+- Exibição do valor total das transações visíveis
+- Tratamento de erros com fallback de mensagem
+- Arquitetura desacoplada com interface de repositório (`ITransactionsRepository`)
+- Testes unitários da lógica principal (`HomeController`)
+
+---
+
+## Rodando os testes
+
+```bash
+flutter test
+```
+
+---
+
+## Como executar o projeto
+
+```bash
+flutter pub get
+flutter run
+```
+
+---
+
+## Licença
+
+Este projeto é livre para uso educacional e testes técnicos.
